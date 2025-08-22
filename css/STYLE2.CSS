@@ -1,0 +1,94 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #0E4839;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 2.5rem;
+            color: #fdfce7;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background-color: #fdfce7 ;
+            border-radius: 1rem;
+            box-shadow:  0 4px 12px rgba(247, 247, 247, 0.932);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            gap: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        section p {
+            flex: 1;
+            color: #334155;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        section img {
+            width: 15rem;
+            height: 15rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 8px rgba(42, 109, 23, 0.953);
+            transition: transform 0.3s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: #f1f5f9;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    background-color: #fdfce7;
+    color: #0E4839;
+    border: 2px solid #0E4839;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0E4839;
+    color: #fdfce7;
+    transform: scale(1.05);
+}
